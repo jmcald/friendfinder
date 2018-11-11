@@ -35,6 +35,7 @@ Once you have submitted a survey, a pop-up will show you your new friends face! 
 - JavaScript
 - jQuery
 - node.js
+- body-parser.js
 - Express.js
 
 Author

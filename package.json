@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/jmcald/friendfinder#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "body-parser": "^1.17.1"
+
   }
 }

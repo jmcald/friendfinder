@@ -3,12 +3,6 @@ body {
     background-size: 1700px;
 }
 
-.site {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-}
-
 h1 {
 	font-family:'Impact', sans-serif;
 	font-size: 5em;
@@ -57,11 +51,8 @@ label {
     text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
 }
 
-#friendFaceModal {
-	/* text-align: center; */
-}
 
-#bestFacePhoto {
+#bestFriendFacePhoto {
 	max-width: 50%;
 	height: auto;
 }

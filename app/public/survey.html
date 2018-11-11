@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="container content">
-		<h3>Survey</h1>
+		<h3 class="mt-4 mb-4 mx-auto">Survey</h1>
 		<p>Take a quick survey to find your perfect face friend! Choose 1 for anything that doesn't apply, and 5 for things that do, and anywhere in between!</p>
 		<form>
 			<div class="form-group">
@@ -141,7 +141,7 @@
 					</div>
 					<div class="modal-body">
 						<h2 id="bestFace"></h2>
-						<img id="bestFacePhoto" src="#">
+						<img id="bestFriendFacePhoto" src="#">
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -197,7 +197,7 @@
 			let currentURL = window.location.origin;
 			$.post(currentURL + "/api/friends", newUser, function(data) {
 				$("#bestFace").text(data.name);
-				$("#bestFacePhoto").attr("src", data.photo);
+				$("#bestFriendFacePhoto").attr("src", data.photo);
 				$("#friendFaceModal").modal("toggle");
 			});
 		} else {
