@@ -1,7 +1,7 @@
 const friends = [
 	{
 		name: "John",
-		photo: "John.jpg",
+		photo: "https://github.com/jmcald/friendfinder/blob/master/app/public/images/John.jpg",
 		scores: [4, 1, 5, 5, 2, 2, 3, 1, 5, 1]
 	},
 	{
